@@ -1,0 +1,15 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/5101b36469f729bb677c753dbbdf78ad37b80b35a26d0aa847fecd76c19267ce._SX1920_FMwebp_.jpg);
+
+    &__content {
+        max-width: 640px;
+    }
+}
+
+.hero__content__branding {
+    color: variaveis.$CorDaLetras;
+}
