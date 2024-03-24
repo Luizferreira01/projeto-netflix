@@ -7,9 +7,28 @@
 
     &__content {
         max-width: 640px;
+
+        &__branding {
+            max-width: 320px;
+            margin-bottom: 36px;
+        }
     }
 }
 
 .hero__content__branding {
     color: variaveis.$CorDaLetras;
 }
+
+.title--small {
+    display: block;
+    color: variaveis.$CorDaLetras;
+}
+
+.link-text {
+    color: variaveis.$CorDaLetras;
+}
+
+.link-text-2 {
+    color:variaveis.$CorDoTexto
+}
+
