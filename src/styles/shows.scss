@@ -1,0 +1,64 @@
+@use 'variaveis';
+
+.shows {
+    padding: 2vw 5.6vw;
+    min-height: 50vw;
+}
+
+.shows__tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.shows__tabs__button {
+    color: variaveis.$CorDaLetras;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+    border: none;
+    margin: 0 1vw;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 5px solid;
+    background-color: variaveis.$CorDeFundo;
+}
+
+.shows__tabs__button--is-active {
+}
+
+.shows__list {
+    display: none;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    display: grid;
+}
+
+.shows__list__item {
+    img {
+        max-width: 100%;
+        border-radius: 4px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 24px;
+        cursor: pointer;
+    }
+}
+
+.span-shows {
+    color: variaveis.$CorDaLetras;
+}
+
+.texto-principal {
+    color: variaveis.$CorDaLetras;
+}
+
+.texto-terceiro {
+    color: variaveis.$CorDoTexto;
+}
+
+.texto-secundario {
+    color: variaveis.$CorDaLetras;
+}
