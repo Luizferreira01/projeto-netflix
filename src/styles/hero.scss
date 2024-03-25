@@ -22,13 +22,54 @@
 .title--small {
     display: block;
     color: variaveis.$CorDaLetras;
+    padding-bottom: 15px;
 }
 
 .link-text {
     color: variaveis.$CorDaLetras;
+    padding-bottom: 15px;
 }
 
 .link-text-2 {
     color:variaveis.$CorDoTexto
 }
 
+.title--big {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title-prime {
+    padding-bottom: 4px;
+}
+
+.title--prime-3 {
+    padding-top: 5px;
+}
+
+.title-prime-2 {
+    margin-top: 5px;
+    border: 2px;
+}
+
+.title-prime-5 {
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title-img {
+    width: 20px;
+    height: 100%;
+    color: black;
+    background-image:blue;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.title-img-2 {
+    color: variaveis.$CorDaLetras
+}
