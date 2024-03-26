@@ -1,0 +1,47 @@
+@use 'variaveis';
+
+.footer {
+padding: 26px 8px;
+}
+
+.footer__container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer__logo {
+    width: 80px;
+    margin: 0 auto 10px;
+}
+
+.footer__links_item {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            padding: 8px 16px;
+            display: block;
+        }
+    }
+    p {
+        margin-bottom: 16px;
+    }
+}
+
+.footer__links_item {
+    flex-wrap: wrap;
+}
+
+.p2 {
+    color: beige;
+}
