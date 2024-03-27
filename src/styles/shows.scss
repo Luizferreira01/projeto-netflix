@@ -14,14 +14,18 @@
     color: variaveis.$CorDaLetras;
     padding: 10px 20px;
     font-size: 20px;
-    border-bottom: 5px solid transparent;
-    cursor: pointer;
     border: none;
+    cursor: pointer;
+    background: none;
     margin: 0 1vw;
     text-transform: uppercase;
     padding-bottom: 5px;
     border-bottom: 5px solid;
     background-color: variaveis.$CorDeFundo;
+
+    &--is-active {
+        border-bottom: 5px solid variaveis.$CorDaLetras;
+    }
 }
 
 .shows__list {
@@ -69,4 +73,7 @@
     display: flex;
     align-items: center;
     padding-left: 19px;
+}
+
+.detalhes-1 {
 }
