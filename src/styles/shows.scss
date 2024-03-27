@@ -24,9 +24,6 @@
     background-color: variaveis.$CorDeFundo;
 }
 
-.shows__tabs__button--is-active {
-}
-
 .shows__list {
     display: none;
     margin-top: 40px;
@@ -49,16 +46,27 @@
 
 .span-shows {
     color: variaveis.$CorDaLetras;
+    margin-bottom: 5px;
 }
 
 .texto-principal {
     color: variaveis.$CorDaLetras;
+    padding: 10px 20px;
 }
 
 .texto-terceiro {
     color: variaveis.$CorDoTexto;
+    padding: 10px 20px;
 }
 
 .texto-secundario {
     color: variaveis.$CorDaLetras;
+    padding: 10px 20px;
+}
+
+
+.tags {
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
 }

@@ -28,15 +28,38 @@
 .link-text {
     color: variaveis.$CorDaLetras;
     padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.link-text-10 {
+    align-items: center;
+    display: block;
 }
 
 .link-text-2 {
-    color:variaveis.$CorDoTexto
+    margin: 10px 20px;
+    color:variaveis.$CorDoTexto;
+    border: 8px solid transparent;
+    border-radius: 3px;
 }
 
+.link-text-8 {
+    margin: 10px 20px;
+    border: 10px;
+}
+
+
 .title--big {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    color: variaveis.$CorDaLetras;
+}
+
+.title--big-5 {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.title--big-2 {
+    color: variaveis.$CorClass;
 }
 
 .title-prime {
@@ -80,4 +103,6 @@
 
 .douze {
     width: 3%;
+    margin: 0 20px;
+    align-items: center;
 }
